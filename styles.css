@@ -3,7 +3,6 @@
     display:flex;
     margin: 5%;
     text-align: left;
-    align-items: center;
     
 }
 body{
@@ -11,5 +10,30 @@ body{
 }
 .pastraipa
 {
-    text-align: center;
+    text-align: justify;
+
+}
+.images
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.item
+{
+    height:500px;
+    width: 600px;
+    padding: 10px;
+    border: 30px;
+    border-color: black;
+}
+h2.svarbu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+h1.header
+{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: blue;
+    font-size: 500%;
 }
