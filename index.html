@@ -4,22 +4,42 @@
             <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="flex">
-            <div><h1 class="header">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, harum.</h1></div>
-            <div><a href="https://www.w3schools.com/" class="here">WhoDis</a></div>
-        </div>
-        <div class="flex">
-            <div><h2>Straipsnis1</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, quos harum magni quidem incidunt quia eius corrupti asperiores et aliquid repellat laudantium enim eum similique quasi a temporibus sed porro, quae, esse nostrum? Voluptas, praesentium. Dolorum, nam. Repellendus explicabo, molestiae nesciunt consequatur eius dolore quae error illum voluptatem deserunt rerum aut repudiandae ratione sint nemo ut vel odit blanditiis nobis qui voluptatum quaerat, cumque totam inventore? Neque veritatis iusto quia. Officia vitae quae cupiditate animi, laborum, maiores labore ipsum nobis velit suscipit deserunt veniam possimus exercitationem impedit. Velit nam possimus id aliquid, nobis ipsam omnis officiis nihil doloremque provident?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima assumenda quibusdam libero cumque vero expedita autem quos quo recusandae sed!</p></div>
-           <div><h2>Straipsnis2</h2><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, voluptatem blanditiis. Earum ut reiciendis voluptates aliquam consequatur! Inventore, in consequatur! Doloribus, commodi at? In, impedit voluptas! Dolor suscipit officiis magnam quaerat dicta. Tempore architecto rem, perspiciatis sunt labore aliquid voluptatum tenetur incidunt! Laudantium consequuntur voluptatem iste officia similique corrupti placeat fugiat corporis distinctio. Molestiae inventore sit asperiores deleniti perferendis, ducimus quis eligendi ea ab fuga accusamus earum voluptate doloremque ex nam obcaecati doloribus fugiat nisi veritatis incidunt architecto nostrum possimus! Expedita et saepe assumenda explicabo commodi odit placeat deleniti qui non corporis repellendus delectus accusamus nihil reiciendis, cupiditate magni sed.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias odio velit nulla recusandae reprehenderit non tempora doloribus iste consectetur? Minus iste aspernatur consectetur culpa, sed ea aliquam nemo earum pariatur!</p></div>
-        </div>
-        <h2 class="svarbu">Labai svarbios nuotraukos</h2>
-        <div class="images">
-            <img class="item" src="a.png">
-            <img class="item" src="b.jfif">
-            <img class="item" src="c.png">
-            <img class="item" src="d.jpg">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-        </div>
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#clients">Clients</a>
+                    <a href="#contact">Contact</a>
+            </div>
+            <div class="main">
+                <div class="flex">
+                    <div><h1 class="header">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, harum.</h1></div>
+                    <div><a href="https://www.w3schools.com/" class="here">WhoDis</a></div>
+                </div>
+                <div class="flex">
+                    <div><h2>Straipsnis1</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, quos harum magni quidem incidunt quia eius corrupti asperiores et aliquid repellat laudantium enim eum similique quasi a temporibus sed porro, quae, esse nostrum? Voluptas, praesentium. Dolorum, nam. Repellendus explicabo, molestiae nesciunt consequatur eius dolore quae error illum voluptatem deserunt rerum aut repudiandae ratione sint nemo ut vel odit blanditiis nobis qui voluptatum quaerat, cumque totam inventore? Neque veritatis iusto quia. Officia vitae quae cupiditate animi, laborum, maiores labore ipsum nobis velit suscipit deserunt veniam possimus exercitationem impedit. Velit nam possimus id aliquid, nobis ipsam omnis officiis nihil doloremque provident?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima assumenda quibusdam libero cumque vero expedita autem quos quo recusandae sed!</p></div>
+                    <div><h2>Straipsnis2</h2><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, voluptatem blanditiis. Earum ut reiciendis voluptates aliquam consequatur! Inventore, in consequatur! Doloribus, commodi at? In, impedit voluptas! Dolor suscipit officiis magnam quaerat dicta. Tempore architecto rem, perspiciatis sunt labore aliquid voluptatum tenetur incidunt! Laudantium consequuntur voluptatem iste officia similique corrupti placeat fugiat corporis distinctio. Molestiae inventore sit asperiores deleniti perferendis, ducimus quis eligendi ea ab fuga accusamus earum voluptate doloremque ex nam obcaecati doloribus fugiat nisi veritatis incidunt architecto nostrum possimus! Expedita et saepe assumenda explicabo commodi odit placeat deleniti qui non corporis repellendus delectus accusamus nihil reiciendis, cupiditate magni sed.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias odio velit nulla recusandae reprehenderit non tempora doloribus iste consectetur? Minus iste aspernatur consectetur culpa, sed ea aliquam nemo earum pariatur!</p></div>
+                </div>
+            <h2 class="svarbu">Labai svarbios nuotraukos</h2>
+            <div class="images">
+                <img class="item" src="a.png">
+                <img class="item" src="b.jfif">
+                <img class="item" src="c.png">
+                 <img class="item" src="d.jpg">
+             </div>
+            </div>
+            <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                 </script>
+        
 
     </body>
 </html>

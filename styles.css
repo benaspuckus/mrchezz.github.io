@@ -6,7 +6,7 @@
     
 }
 body{
-    background-color: bisque;
+    background-color: #6Fb98F;
 }
 .pastraipa
 {
@@ -34,11 +34,53 @@ h2.svarbu
 h1.header
 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    color: blue;
+    color: #021c1e;
     font-size: 300%;
     text-align:center;
 }
 .here
 {
-    font-size:150%
+    font-size:150%;
+    color:black;
 }
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #004445;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #021c1e;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #2c7873;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
