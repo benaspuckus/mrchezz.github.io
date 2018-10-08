@@ -36,4 +36,9 @@ h1.header
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: blue;
     font-size: 300%;
+    text-align:center;
+}
+.here
+{
+    font-size:150%
 }
